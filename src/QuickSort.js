@@ -87,7 +87,6 @@ let speedSort;
     if ((props.start == true) && (props.display == true)) {
       const fast = Number(props.speed);
       speedSort = 2000 / fast;
-      alert(speedSort)
 
       quickSort(quickArray, 0, quickArray.length - 1);
     }

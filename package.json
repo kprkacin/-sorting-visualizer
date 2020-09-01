@@ -1,15 +1,13 @@
-
 {
-  "homepage": "https://github.com/kprkacin/-sorting-visualizer",
-
+  "homepage": "https://kprkacin.github.io/-sorting-visualizer",
   "name": "my-app",
   "version": "0.1.0",
   "private": true,
-
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",
     "@testing-library/user-event": "^7.2.1",
+    "gh-pages": "^3.1.0",
     "rc-slider": "^9.3.1",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
@@ -22,7 +20,6 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
-  
   },
   "eslintConfig": {
     "extends": "react-app"
