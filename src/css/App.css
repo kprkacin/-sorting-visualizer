@@ -1,0 +1,82 @@
+.App {
+  width: 100%;
+}
+.buttonRow {
+  z-index: 10;
+  height: 30px;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  display: flex;
+  width: 100%;
+  justify-content:space-evenly;
+  background-color: slategray;
+}
+.splitButtonRowRight {
+  
+ 
+  display: flex;
+  width:33%;
+  justify-content: right;
+ 
+}
+.splitButtonRowMiddle{
+   
+  display: flex;
+  width:33%;
+  justify-content: center;
+}
+.splitButtonRowLeft{
+
+ 
+  display: flex;
+  width:33%;
+  justify-content: left;
+ 
+}
+.Button{
+  display:block;
+  background-color: slategray;
+  padding:5px 25px  5px 25px;
+  text-decoration:none;
+  color:white;
+}
+.Speed{
+  padding:5px;
+  width:29%;
+  display:block;
+  color:white;
+  
+}
+.labelSort{
+  color:white;
+  display: block;
+  padding:5px;
+  
+
+}
+.sortSelect{
+  margin-left:30px;
+  margin-right: 30px;
+  text-align:center;
+}
+
+
+.Sorts {
+  width: 100%;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  align-content: center;
+}
+.Sorts div{
+  margin-bottom:60px;
+}
+.allSorts{
+
+  width: 100%;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  margin-left:2.5%;
+}

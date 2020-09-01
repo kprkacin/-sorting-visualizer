@@ -1,0 +1,18 @@
+.Box{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    width:90%;
+  
+}
+.Title{
+    width:100%;
+    text-align: center;
+}
+
+.Column{
+    display:flex;
+    width:100%;
+    transform:rotate(180deg)
+
+}

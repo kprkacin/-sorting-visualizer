@@ -1,0 +1,13 @@
+body {
+  
+  font-family: 'AnkaCoderRegular';
+  font-weight: normal;
+  font-style: normal; 
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
