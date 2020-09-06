@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
-import "./css/Sort.css";
-import Bar from "./components/Bar";
+import "../css/Sort.css";
+import Bar from "../components/Bar";
 
 function InsertionSort(props) {
   let randomArr = [...props.randomArray];

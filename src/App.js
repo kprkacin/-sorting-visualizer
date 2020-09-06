@@ -2,13 +2,13 @@ import React, { useState, useEffect } from "react";
 import Slider, { Range } from "rc-slider";
 import "rc-slider/assets/index.css";
 import "./css/App.css";
-import BubbleSort from "./BubbleSort";
-import QuickSort from "./QuickSort";
-import MergeSort from "./MergeSort";
-import SelectionSort from "./SelectionSort";
-import InsertionSort from "./InsertionSort";
-import HeapSort from "./HeapSort";
-import CountingSort from "./CountingSort";
+import BubbleSort from "./sorts/BubbleSort";
+import QuickSort from "./sorts/QuickSort";
+import MergeSort from "./sorts/MergeSort";
+import SelectionSort from "./sorts/SelectionSort";
+import InsertionSort from "./sorts/InsertionSort";
+import HeapSort from "./sorts/HeapSort";
+import CountingSort from "./sorts/CountingSort";
 
 /*
     const setSpeedUpHandler = () =>{
